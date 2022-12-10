@@ -1,0 +1,12 @@
+n=input("Enter the number : ")
+new=""
+l=len(n)
+for i in range(0,l):
+    r=n[l-1]
+    new=new+r
+    l=l-1
+
+if new==n:
+    print(n,"is a palindrome")
+else:
+    print(n,"is not a palindrome")
